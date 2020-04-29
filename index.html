@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+Copyright 2015 Erik Nijenhuis <erik@xerdi.com>.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#1a237e">
+
+        <title>Githru Demo</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="material/css/ripples.min.css" rel="stylesheet">
+        <link href="material/css/material-wfont.min.css" rel="stylesheet">
+
+        <link href="css/flipper.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="navbar navbar-inverse" style="background-color: #2196f3;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript:void(0)">Githru Demo page</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div id="example-row" class="row">
+                <div class="btn btn-default btn-lg btn-block" style="cursor: default;">Welcome to <b>Githru</b> Demo!!! <br>Click the project you want to see!</div>
+                <div class="col-xs-12 col-md-4 full-card">
+                    <div class="flip-card active-card">
+                        <div class="card" style="background-color: #bbdefb;color: white;" onclick="window.open('https://githru.github.io/realm-java-demo/');">
+                            <h6 style="font-size: 85px; padding-top: 37px;">Realm java</h6>
+                        </div>
+                        <div class="well">
+                            <h3>realm/realm-java</h3>
+                            <h4>Java version of mobile database Realm</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 full-card">
+                    <div class="flip-card active-card">
+                        <div class="card" style="background-color: #c5cae9;color: white;" onclick="window.open('https://githru.github.io/omnitrack-demo/');">
+                            <h6 style="font-size: 75px; padding-top: 42px;">Omnitrack android</h6>
+                        </div>
+                        <div class="well">
+                            <h3>muclipse/omnitrack_android</h3>
+                            <h4>Mobile self-tracking system</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 full-card">
+                    <div class="flip-card active-card">
+                        <div class="card" style="background-color: #b3e5fc;color: white;">
+                            <h6 style="font-size: 75px; padding-top: 70px;">Sample 3</h6>
+                        </div>
+                        <div class="well">
+                            <h3>sample/sample</h3>
+                            <h4>Sample blablabla</h4>
+                        </div>
+                    </div>
+                </div>  
+           
+            </div>
+            <div style="text-align: center;">
+                <h2><b>NOTICE</b></h2>
+                <h3>As each demo page is provided through GitHub page, it takes time to load resources. Wait please!!</h3>
+                
+            </div>
+        </div>
+        
+        <!--    JAVASCRIPT DEPENENCIES      -->
+        
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+        <script src="material/js/ripples.min.js"></script>
+        <script src="material/js/material.min.js"></script>
+        
+        <script src="js/flipper.js"></script>
+        
+        <script>
+            //  First bind the entire row to the flipper!
+            var flipper = new Flipper(document.getElementById("example-row"));
+            
+            $("#first").click(function(e){
+                e.preventDefault();
+                flipper.setCards([{
+                        cardIndex: "0",
+                        activeIndex: "1"
+                    }, {
+                        cardIndex: "1",
+                        activeIndex: "2"
+                    }, {
+                        cardIndex: "2",
+                        activeIndex: "0"
+                }]);
+            });
+            
+            $("#second").click(function(e){
+                e.preventDefault();
+                flipper.setCards([{
+                        cardIndex: "0",
+                        activeIndex: "0"
+                    }, {
+                        cardIndex: "1",
+                        activeIndex: "1"
+                    }, {
+                        cardIndex: "2",
+                        activeIndex: "2"
+                }]);
+            });
+            
+            $("#third").click(function(e){
+                e.preventDefault();
+                flipper.setCards([{
+                        cardIndex: "0",
+                        activeIndex: "2"
+                    }, {
+                        cardIndex: "1",
+                        activeIndex: "0"
+                    }, {
+                        cardIndex: "2",
+                        activeIndex: "1"
+                }]);
+            });
+            
+        </script>
+        
+    </body>
+</html>
