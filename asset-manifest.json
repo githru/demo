@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/demo/static/css/main.df0f811b.chunk.css",
-    "main.js": "/demo/static/js/main.a06f594e.chunk.js",
-    "main.js.map": "/demo/static/js/main.a06f594e.chunk.js.map",
-    "runtime-main.js": "/demo/static/js/runtime-main.c40d400c.js",
-    "runtime-main.js.map": "/demo/static/js/runtime-main.c40d400c.js.map",
-    "static/css/2.de424728.chunk.css": "/demo/static/css/2.de424728.chunk.css",
-    "static/js/2.495a5041.chunk.js": "/demo/static/js/2.495a5041.chunk.js",
-    "static/js/2.495a5041.chunk.js.map": "/demo/static/js/2.495a5041.chunk.js.map",
-    "index.html": "/demo/index.html",
-    "precache-manifest.832b9ca164c45384a0780b281edc883e.js": "/demo/precache-manifest.832b9ca164c45384a0780b281edc883e.js",
-    "service-worker.js": "/demo/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/demo/static/css/2.de424728.chunk.css.map",
-    "static/css/main.df0f811b.chunk.css.map": "/demo/static/css/main.df0f811b.chunk.css.map",
-    "static/js/2.495a5041.chunk.js.LICENSE.txt": "/demo/static/js/2.495a5041.chunk.js.LICENSE.txt"
+    "main.css": "/realm-java-demo/static/css/main.df0f811b.chunk.css",
+    "main.js": "/realm-java-demo/static/js/main.5a3b8cb7.chunk.js",
+    "main.js.map": "/realm-java-demo/static/js/main.5a3b8cb7.chunk.js.map",
+    "runtime-main.js": "/realm-java-demo/static/js/runtime-main.eb6f78d6.js",
+    "runtime-main.js.map": "/realm-java-demo/static/js/runtime-main.eb6f78d6.js.map",
+    "static/css/2.de424728.chunk.css": "/realm-java-demo/static/css/2.de424728.chunk.css",
+    "static/js/2.495a5041.chunk.js": "/realm-java-demo/static/js/2.495a5041.chunk.js",
+    "static/js/2.495a5041.chunk.js.map": "/realm-java-demo/static/js/2.495a5041.chunk.js.map",
+    "index.html": "/realm-java-demo/index.html",
+    "precache-manifest.433a10bf6463a624e474aff7621ed999.js": "/realm-java-demo/precache-manifest.433a10bf6463a624e474aff7621ed999.js",
+    "service-worker.js": "/realm-java-demo/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/realm-java-demo/static/css/2.de424728.chunk.css.map",
+    "static/css/main.df0f811b.chunk.css.map": "/realm-java-demo/static/css/main.df0f811b.chunk.css.map",
+    "static/js/2.495a5041.chunk.js.LICENSE.txt": "/realm-java-demo/static/js/2.495a5041.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c40d400c.js",
+    "static/js/runtime-main.eb6f78d6.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.495a5041.chunk.js",
     "static/css/main.df0f811b.chunk.css",
-    "static/js/main.a06f594e.chunk.js"
+    "static/js/main.5a3b8cb7.chunk.js"
   ]
 }
